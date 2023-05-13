@@ -34,9 +34,9 @@ let obje={user:"username",pass:"123456"}
 console.log(obje);
 console.log(typeof obje);
 
-function model(){
+let func1=function model(){
     let func=123;
     console.log(func);
 }
-model();
-console.log(typeof func);
+func1();
+console.log(typeof func1);
