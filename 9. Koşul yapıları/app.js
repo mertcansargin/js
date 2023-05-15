@@ -26,3 +26,33 @@
 //? İF - ELSE İF- ELSE 
 
 //? Bu sorgulama yöntemi çoklu if olarak geçer birden çok sorgulanacak değer olduğunda kullanırız.
+
+//? girilecek 4 yol vardır.
+
+// let yol=Number(prompt("Lütfen girmek istediğiniz yolu giriniz: "));
+
+// if(yol==1) alert("Seçilen "+yol+". Yoldur");
+// else if(yol==2) alert("Seçilen "+yol+". Yoldur");
+// else if(yol==3) alert("Seçilen "+yol+". Yoldur");
+// else if(yol==4) alert("Seçilen "+yol+". Yoldur");
+// else alert("Lütfen 1 ile 4 arasında bir yol seçiniz");
+
+// Todo BİRDEN FAZLA İF İLE ÇALIŞMAK 
+//? Bu yapıda ifler alt alta sıralanır. Koşulların sağlanıp sağlanmadığı kontrol edilir. 
+//? Koşullar birindede sağlansa yada hepsinide sağlasa koşulun sağladığı ifler çalışır.
+//? Yani her bir if farklı bir if olarak kabul edilir biriniz sağladım çıkayım döngüsü olmaz.
+
+let ad=prompt("Adınızı giriniz: ");
+let tckn=prompt("Tc No yu giriniz: ");
+debugger
+function kontrol(ad,tckn){
+    if(ad==""||ad==null){
+        alert("Ad kısmı boş geçilemez.");
+    }
+    if(tckn.lenght!=11){
+        alert("TCKN 11 hane olmalıdır")
+    }
+    alert("başarılı");
+    
+}
+kontrol();
