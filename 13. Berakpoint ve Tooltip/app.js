@@ -1,0 +1,2 @@
+//? Tooltip bir kod yazdığımızda kenarda o kod için bilgi vermek için açılan küçük baloncuğa deniyor.
+//? Breakpoint kodların adım adım çalıştırılmasını sağlar bşlatmak istediğimiz yere debugger yazarak başlatabiliriz.
