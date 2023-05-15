@@ -12,8 +12,9 @@
 let Dizel=24.53
 let Benzin  =  22.25 ;
 let LPG  = 11.1;
+const AltSatir="\r\n";
 
-let yakit=Number(prompt("Yüklenecek Yakıtı Seçiniz: 1-Dizel , 2-Benzin , 3-LPG"));
+let yakit=Number(prompt("Yüklenecek Yakıtı Seçiniz:"+AltSatir+" 1-Dizel"+AltSatir+" 2-Benzin "+AltSatir+" 3-LPG"));
 let litre=Number(prompt("Kaç litre yüklenecek? "));
 
 function hesapla(yakit,litre){
