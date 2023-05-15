@@ -35,4 +35,11 @@
 //     sayac++;
 // }
 
-//todo  do { kodlar } while( koşul )
+//todo  do { kodlar } while( koşul ) 
+//? do-while da kodlar en az bir 
+
+let yas=15;
+do{
+    console.log("Ehliyet alabilirsiniz..");
+}
+while(yas>=18)
