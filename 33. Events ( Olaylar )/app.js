@@ -82,7 +82,31 @@
 //     console.log("keyup çalıştı");
 // }
 
-window.addEventListener("keydown",refengel);
-function refengel(e){
-console.log(e.keycode);
+// window.addEventListener("keydown",refengel);
+// function refengel(e){
+// console.log(e.keycode);
+// }
+
+//! İnput Eventları
+
+// focus  //? mouse ile örn texbox ı seçtiğimizde focus eventi çalışmış olur
+// blur   //* yukardakinin aynısı bu sefer çıktığımızda bu event çalışır 
+// copy   //todo    istenilen nesne içerisindeki bilgilerin kopyalanması sırasında çalışan komut
+// paste    // istenilen nesnenin içerisine yapıştırma durumunda çalışan komut
+// cut      //? istenilen nesne içerisinden kesme işlemi yapıldığında çalışan komut
+// select    //* istenilen nesne içerisindeki bilgileri seçme işlemi yapıldığında çalışan komut
+
+const todo=document.querySelector("#todoName");
+console.log(todo);
+
+todo.addEventListener("focus",run);
+todo.addEventListener("blur",run);
+todo.addEventListener("copy",run);
+todo.addEventListener("paste",run);
+todo.addEventListener("cut",run);
+todo.addEventListener("select",run);
+
+
+function run(e){
+    console.log(e.type);
 }
