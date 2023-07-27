@@ -59,6 +59,7 @@
 //!     aynı görevdeler ikiside 
 //todo     querySelector kullanırken almak istediğimiz id nin başına diez # eklenir
 //todo     querySelector kullanırken almak istediğimiz class ın başına nokta . konulur 
+//todo     querySelector kullanırken almak istediğimiz name ın başına hiçbir şey koymayız 
 
 // const selector=document.querySelector("#todoClearButton");
 // console.log(selector);
@@ -78,8 +79,19 @@
 // console.log(select2);                       
 
 //? odd ve even
-const query=Array.from(document.querySelectorAll("li:nth-child(even)")); // parantez içerisindeki css selector
+// const query=Array.from(document.querySelectorAll("li:nth-child(even)")); // parantez içerisindeki css selector
 
-query.forEach(function(data){
-    data.style.backgroundColor="lightgrey";
-});
+// query.forEach(function(data){
+//     data.style.backgroundColor="lightgrey";
+// });
+
+const ekle=document.querySelector("#todoAddButton");
+const focus=document.querySelector("todoName");
+console.log(focus);
+console.log(ekle);
+
+
+ekle.addEventListener("click",run);
+
+function run(){console.log("çalıştı buton");}
+    

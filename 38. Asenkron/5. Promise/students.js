@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "firstname":"mert",
+        "lastname":"sargın"
+    },
+    {
+        "id":2,
+        "firstname":"serra",
+        "lastname":"sargın"
+    },
+    {
+        "id":3,
+        "firstname":"kürşat",
+        "lastname":"sargın"
+    },
+    {
+        "id":4,
+        "firstname":"emine",
+        "lastname":"sargın"
+    }
+
+]
